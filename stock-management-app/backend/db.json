@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "1234"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Clavier sans fil",
+        "type": "Électronique",
+        "price": 45.99,
+        "supplier": "TechCorp",
+        "quantity": 15,
+        "warehouse": "Casablanca",
+        "editedBy": "admin"
+      }
+    ]
+  }
+  
