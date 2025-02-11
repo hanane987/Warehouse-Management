@@ -1,20 +1,17 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, Alert, StyleSheet } from 'react-native';
 import { login } from './authService'; 
-import { NavigationProp } from '@react-navigation/native';
+import useCustomNavigation from '@/hooks/useNavigation'; // Import the custom navigation hook
 
-interface LoginFormProps {
-    navigation: NavigationProp<any>; 
-}
-
-const LoginForm: React.FC<LoginFormProps> = ({ navigation }) => {
+const LoginForm: React.FC = () => {
     const [secretCode, setSecretCode] = useState('');
+    const { navigateToProducts } = useCustomNavigation(); // Use the custom navigation hook
 
     const handleLogin = async () => {
         const isAuthenticated = await login(secretCode);
         if (isAuthenticated) {
             Alert.alert('Succès', 'Vous êtes connecté avec succès !'); // Success message
-            navigation.navigate('ProductsScreen'); // Redirect to ProductsScreen
+            navigateToProducts(); // Redirect to ProductsScreen using the custom hook
         } else {
             Alert.alert('Erreur', 'Code secret invalide'); // Error message
         }

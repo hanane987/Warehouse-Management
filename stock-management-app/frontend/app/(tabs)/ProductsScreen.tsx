@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList, StyleSheet, ActivityIndicator } from 'react-native';
+import { View, Text, FlatList, StyleSheet, ActivityIndicator, Alert } from 'react-native';
+import AddProductForm from './AddProductForm'; // Import the AddProductForm component
 
 interface Product {
     id: number;        // Assuming id is a number
@@ -17,10 +18,14 @@ const ProductsScreen = () => {
         const fetchProducts = async () => {
             try {
                 const response = await fetch('http://localhost:3003/products'); // Adjust the URL if needed
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
                 const data = await response.json();
                 setProducts(data);
             } catch (error) {
                 console.error('Error fetching products:', error);
+                Alert.alert('Error', 'Failed to load products. Please try again later.');
             } finally {
                 setLoading(false);
             }
@@ -35,6 +40,7 @@ const ProductsScreen = () => {
 
     return (
         <View style={styles.container}>
+            <AddProductForm /> {/* Render the AddProductForm component */}
             <FlatList
                 data={products}
                 keyExtractor={(item) => item.id.toString()}

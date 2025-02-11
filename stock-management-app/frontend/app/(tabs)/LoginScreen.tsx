@@ -1,16 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import LoginForm from './LoginForm'; // Ensure this path is correct
-import { NavigationProp } from '@react-navigation/native';
 
-interface LoginScreenProps {
-    navigation: NavigationProp<any>; 
-}
-
-const LoginScreen: React.FC<LoginScreenProps> = ({ navigation }) => {
+const LoginScreen: React.FC = () => {
     return (
         <View style={styles.container}>
-            <LoginForm navigation={navigation} /> {/* Ensure navigation prop is passed */}
+            <LoginForm /> {/* No need to pass navigation prop anymore */}
         </View>
     );
 };

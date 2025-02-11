@@ -40,12 +40,12 @@ export default function TabLayout() {
                 }}
             />
             <Tabs.Screen
-                name="ProductsScreen" // Ensure this matches the filename of ProductsScreen.tsx
-                options={{
-                    title: 'Products',
-                    tabBarIcon: ({ color }) => <IconSymbol size={28} name="box" color={color} />, // Example icon
-                }}
-            />
+    name="ProductsScreen" // Ensure this matches the navigation.navigate call
+    options={{
+        title: 'Products',
+        // tabBarIcon: ({ color }) => <IconSymbol size={28} name="box" color={color} />, // Example icon
+    }}
+/>
             <Tabs.Screen
                 name="LoginScreen" // Ensure this matches the filename of LoginScreen.tsx
                 options={{
