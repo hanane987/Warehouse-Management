@@ -1,22 +1,39 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "1234"
-      }
-    ],
-    "products": [
-      {
-        "id": 1,
-        "name": "Clavier sans fil",
-        "type": "Électronique",
-        "price": 45.99,
-        "supplier": "TechCorp",
-        "quantity": 15,
-        "warehouse": "Casablanca",
-        "editedBy": "admin"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Clavier sans fil",
+      "type": "Électronique",
+      "price": 45.99,
+      "supplier": "TechCorp",
+      "quantity": 15,
+      "warehouse": "Casablanca",
+      "editedBy": "admin"
+    },
+    {
+      "id": "9715",
+      "name": "HGEDH",
+      "type": "EDED",
+      "price": 12,
+      "quantity": 33,
+      "warehouse": "Casablanca",
+      "editedBy": "admin"
+    },
+    {
+      "id": "999c",
+      "name": "BHJ",
+      "type": "JGJGH",
+      "price": null,
+      "quantity": null,
+      "warehouse": "Casablanca",
+      "editedBy": "admin"
+    }
+  ]
+}
