@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# Warehouse-Management
-# Warehouse-Management
-=======
+
+
 # Application de Gestion de Stock
 
 ## Description
@@ -83,7 +81,5 @@ Un fichier `db.json` est fourni pour simuler une base de données. Pour le déma
 
 Les contributions sont les bienvenues. Veuillez soumettre une pull request ou ouvrir une issue pour discuter des changements proposés.
 
-## Licence
+.
 
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
->>>>>>> 5c149c76be8bc46e38a02230189ff84936093ce0
