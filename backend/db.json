@@ -1,0 +1,351 @@
+{
+  "users": [
+    {
+      "id": "1333",
+      "username": "Amine Boutaleb",
+      "secretKey": "AH90907J",
+      "warehouseId": 1999,
+      "city": "Oujda"
+    },
+    {
+      "id": "1444",
+      "username": "Karim El Mansouri",
+      "secretKey": "RK189987A",
+      "warehouseId": 2991,
+      "city": "Marrakesh"
+    }
+  ],
+  "products": [
+    {
+      "id": "c69c",
+      "name": "Test",
+      "type": "",
+      "barcode": "12345",
+      "price": 45,
+      "solde": 75,
+      "supplier": "Fza",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/b41ec4e2-bf74-43cb-a42d-e8f9e58b97cf.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 541,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [],
+      "quantity": null
+    },
+    {
+      "id": "07c5",
+      "name": "Hhh",
+      "type": "",
+      "barcode": "677899",
+      "price": 369,
+      "solde": 99,
+      "supplier": "Hjikkk",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/90c440f9-6141-44e4-8463-b41465b9b042.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 666,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": []
+    },
+    {
+      "id": "21f7",
+      "name": "Hhdhd",
+      "type": "",
+      "barcode": "666",
+      "price": 89,
+      "solde": 455,
+      "supplier": "Ddd",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/1d9b30d5-31e1-4875-a153-c830b7c9bd0e.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 555,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": []
+    },
+    {
+      "id": "1fba",
+      "name": "Hfhdj",
+      "type": "",
+      "barcode": "677888",
+      "price": 6,
+      "solde": 9,
+      "supplier": "Dhhf",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/5170433f-c9a0-4e2b-bd07-9166fc34c709.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 956,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": []
+    },
+    {
+      "id": "4b61",
+      "name": "Hjjjj",
+      "type": "",
+      "barcode": "77899",
+      "price": 36,
+      "solde": 66,
+      "supplier": "Bbjjj",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/36cf2c23-82b4-4d6e-8d22-d95ecf24338f.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 66,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [],
+      "quantity": 0
+    },
+    {
+      "id": "060a",
+      "name": "Ukkkk",
+      "type": "",
+      "barcode": "778",
+      "price": 3666,
+      "solde": 99,
+      "supplier": "Vvhh",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/52dc6202-6566-4483-a8ae-b045082de43b.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 999,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-14"
+        }
+      ]
+    },
+    {
+      "id": "c4c6",
+      "name": "Gggh",
+      "type": "",
+      "barcode": "55678999",
+      "price": 58,
+      "solde": 55,
+      "supplier": "Fcc",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/5d47b0ee-a7fd-4a27-bffb-e8ccaf099eaf.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 88,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-14"
+        }
+      ],
+      "quantity": 0
+    },
+    {
+      "id": "f5e5",
+      "name": "Sais",
+      "type": "",
+      "barcode": "6111128000088",
+      "price": 3,
+      "solde": 96,
+      "supplier": "Gdhdh",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/5115b8e3-0ed5-4d14-a35a-9cdd589ffd50.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 36,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-14"
+        }
+      ]
+    },
+    {
+      "id": "afa9",
+      "name": "Tender",
+      "type": "",
+      "barcode": "6111242102781",
+      "price": 3,
+      "solde": 36,
+      "supplier": "Hhhhh",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/7243816e-07a9-45c5-a8ac-ba96065d35bf.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 36,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-14"
+        }
+      ]
+    },
+    {
+      "id": "3e95",
+      "name": "Hhh",
+      "type": "",
+      "barcode": "678889",
+      "price": 55,
+      "solde": 55,
+      "supplier": "Vhjkj",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/2582310f-d3bb-4328-a461-c21362e29e1a.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 869,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-15"
+        }
+      ],
+      "quantity": null
+    },
+    {
+      "id": "6f93",
+      "name": "Tghjj",
+      "type": "",
+      "barcode": "5678899",
+      "price": 5,
+      "solde": 88,
+      "supplier": "Cvv",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/fb97641e-c823-46a1-866b-98e35318d8e6.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 89,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-15"
+        }
+      ],
+      "quantity": null
+    },
+    {
+      "id": "d06e",
+      "name": "Haban",
+      "type": "",
+      "barcode": "78282828",
+      "price": 97,
+      "solde": 77,
+      "supplier": "DW ww",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/a94d97aa-3d95-439d-ad24-2407bce410d1.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 7,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-15"
+        }
+      ],
+      "quantity": 0
+    },
+    {
+      "id": "d488",
+      "name": "Hanane",
+      "type": "",
+      "barcode": "7777777777",
+      "price": 77,
+      "solde": 77,
+      "supplier": "Hanane",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/c56ef00c-f9b9-4b73-852b-6633f0875c63.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 77,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-15"
+        }
+      ]
+    },
+    {
+      "id": "dc77",
+      "name": "Hab",
+      "type": "",
+      "barcode": "67771711",
+      "price": 96,
+      "solde": 94,
+      "supplier": "Wdd",
+      "image": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540anonymous%252Ffrontend-05665aac-d622-46f4-a745-e3b2f6eec1b6/ImagePicker/a02e7bad-f4f9-4d19-baa1-2d826cef991e.jpeg",
+      "stocks": [
+        {
+          "name": "",
+          "quantity": 77,
+          "localisation": {
+            "city": ""
+          }
+        }
+      ],
+      "editedBy": [
+        {
+          "warehousemanId": "1333",
+          "at": "2025-02-15"
+        }
+      ]
+    }
+  ]
+}
